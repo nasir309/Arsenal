@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+   background-image: url(rest.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   
+}
+.navbar{
+   display: block;
+   justify-content: space-between;
+   position: relative;
+   background-color: rgb(19, 18, 18);
+   padding: 10px;
+   margin: 10px;
+   list-style: none;
+}
+nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+
+}
+
+.navbar a{
+   text-decoration: none;
+   color: hsl(0, 26%, 96%);
+}
+.navbar a:hover{
+   background-color: rgb(105, 105, 228);
+}
+h1{
+   color: #da0808;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   
+}
+
+h2{
+   text-align: center;
+   font-size: larger;
+   margin-bottom: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+   p{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      
+   }
+    img{
+      width: 500px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   
+   
+
+ 
+
+
+
+
+
+
