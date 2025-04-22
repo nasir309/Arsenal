@@ -32,6 +32,8 @@ nav ul{
 }
 .navbar a:hover{
    background-color: rgb(105, 105, 228);
+   padding: 10px;
+   margin: 10px;
 }
 h1{
    color: #da0808;
@@ -53,15 +55,26 @@ h2{
       font-size: larger;
       
    }
-    img{
-      width: 500px;
+     main{
+      text-align: center;
+     }
+   
+  
+    .main img{
+      width: 10px;
+      margin: px;
       border-radius: 50%;
-      display: flex;
-      justify-content: center;
+    }
+   footer{
       align-items: center;
+
    }
-   
-   
+   .center-logo{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50%;
+   }
 
  
 
