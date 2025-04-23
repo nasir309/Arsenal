@@ -75,7 +75,15 @@ h2{
       margin-left: auto;
       border-radius: 50%;
    }
-
+   .food{
+      float: left;
+      margin-right: 90px;
+      margin-bottom: 20px;
+      
+   }
+  main img{
+    border-radius: 50%;
+  }
  
 
 
