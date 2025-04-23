@@ -1,6 +1,8 @@
 *{
     padding: 0px;
     margin:0px;
+    
+    
 }
 body{
    background-image: url(rest.webp);
@@ -23,17 +25,22 @@ nav ul{
    display: flex;
    list-style: none;
    justify-content: space-between;
+   flex-direction: row;
+   text-align: end;
 
 }
 
 .navbar a{
    text-decoration: none;
    color: hsl(0, 26%, 96%);
+   font-weight: lighter;
+   padding: 8px 12px;
 }
 .navbar a:hover{
    background-color: rgb(105, 105, 228);
    padding: 10px;
    margin: 10px;
+   border-radius: 20px;
 }
 h1{
    color: #da0808;
@@ -48,6 +55,11 @@ h2{
    margin-bottom: 20px;
    font-family: Georgia, 'Times New Roman', Times, serif;
    
+}  
+h3{
+   font-size: 24px;
+   margin-bottom: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
    p{
       text-align: center;
@@ -57,6 +69,7 @@ h2{
    }
      main{
       text-align: center;
+      padding: 20px;
      }
    
   
@@ -67,6 +80,7 @@ h2{
     }
    footer{
       align-items: center;
+      margin-top: 30px;
 
    }
    .center-logo{
@@ -77,12 +91,29 @@ h2{
    }
    .food{
       float: left;
-      margin-right: 90px;
-      margin-bottom: 40px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      display: inline-block;
+      margin: 15px;
+      
       
    }
-  main img{
-    border-radius: 50%;
+  .food img {
+   transition: transform 0.3s ease;
+   border-radius: 50%;
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+   
+  }
+  .food img:hover {
+   transform: scale(1.05);
+  }
+  .food-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
   }
  
 
