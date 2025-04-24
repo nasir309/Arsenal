@@ -5,7 +5,7 @@
     
 }
 body{
-   background-image: url(rest.webp);
+   background-color: #ffffea;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -16,7 +16,7 @@ body{
    display: block;
    justify-content: space-between;
    position: relative;
-   background-color: rgb(19, 18, 18);
+   background-color: #2c6e49;
    padding: 10px;
    margin: 10px;
    list-style: none;
@@ -43,7 +43,7 @@ nav ul{
    border-radius: 20px;
 }
 h1{
-   color: #da0808;
+   color: #008585;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
    
@@ -54,18 +54,20 @@ h2{
    font-size: larger;
    margin-bottom: 20px;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   
+   color: #008585;
 }  
 h3{
    font-size: 24px;
    margin-bottom: 20px;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
    p{
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: larger;
-      
+      color: #0a2d2e;
+      font-size: large;
    }
      main{
       text-align: center;
