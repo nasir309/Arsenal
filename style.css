@@ -6,33 +6,26 @@
 
 body{
    background-color: #ffffea;
-   background-repeat: no-repeat;
-   background-size: cover;
+   
+   
    background-position: center;
    height: 100vh;
    
 }
 .navbar{
-   display: block;
-   justify-content: space-between;
-   position: relative;
    background-color: #eaeaea;
    padding: 10px;
    margin: 10px;
-   list-style: none;
 }
 nav ul{
    display: flex;
    list-style: none;
-   justify-content: space-between;
-   flex-direction: row;
-   text-align: end;
-
+   justify-content: space-around;
 }
 
 .navbar a{
    text-decoration: none;
-   color: #183e4b;
+   color: #0db2e9;
    font-weight: lighter;
    padding: 8px 12px;
    font-family: 'Roboto', sans-serif;
@@ -79,7 +72,7 @@ h3{
   
     .main img{
       width: 10px;
-      margin: px;
+      margin: 10px;
       border-radius: 50%;
     }
    footer{
@@ -120,7 +113,8 @@ h3{
   .order{
     color: #194a7a; 
   }
-
+@media (max-width:600px)
+ 
 
 
 
