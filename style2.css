@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hero-content {
+    background-image: url(bbq2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: white;
+    filter: brightness(50%);
+    filter: brightness(0.5);
+}
