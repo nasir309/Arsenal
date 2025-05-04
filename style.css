@@ -88,35 +88,24 @@ h3{
       margin-left: auto;
       border-radius: 50%;
    }
-   .food{
-      float: left;
-      margin-right: 100px;
-      margin-bottom: 50px;
-      display: inline-block;
-      margin: 15px;   
-   }
-  .food img {
-   transition: transform 1.05s ease;
-   border-radius: 50%;
-   width: 100%;
-   max-width: 200px;
-   height: auto;
-   
-  }
-  .food img:hover {
-   transform: scale(1.15);
-  }
-  .food-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 20px;
-  }
-  .order{
-    color: #194a7a; 
-  }
-
+  
  
+  .product{
+    display: inline-block;
+    overflow: auto;
+    height: auto;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+ .product img{
+   border-radius: 50%;
+   
+ }
+ .product img:hover{
+   transform: scale(0.9);
+   transition: 0.3s;
+   cursor: pointer;
+ }
 
 
 
