@@ -61,14 +61,14 @@ h3{
 }
    p{
       text-align: center;
-      font-family: cursive;
-      font-size: larger;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
       color: #0a2d2e;
       font-size: large;
    }
      main{
       text-align: center;
-      padding: 20px;
+      padding: 20px;  
      }
    
   
@@ -92,10 +92,10 @@ h3{
  
   .product{
     display: inline-block;
-    overflow: auto;
     height: auto;
     flex-wrap: wrap;
     width: 30%;
+    overflow: auto;
   }
  .product img{
    border-radius: 50%;
