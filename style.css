@@ -66,12 +66,11 @@ h3{
       color: #0a2d2e;
       font-size: large;
    }
-     main{
+   main{
+      align-items: center;
       text-align: center;
-      padding: 20px;
-      overflow-x: scroll;
-      display: flex;  
-     }
+   }
+    
    
   
     .main img{
@@ -95,6 +94,7 @@ h3{
   .product{
     display: inline-block;
     height: auto;
+    overflow: auto;
     flex-wrap: wrap;
     width: 30%;
       margin: 10px;
